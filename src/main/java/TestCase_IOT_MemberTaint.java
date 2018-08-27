@@ -62,6 +62,7 @@ public class TestCase_IOT_MemberTaint {
             // second case
             TaintedStruct struct2 = new TaintedStruct(testCase.getVulnerableSource(args[0]));
             testCase.writeToVulnerableSink2(struct2.getTainted());
+            testCase.writeToVulnerableSink2(struct2.getTainted());
 
             // third case
             TaintedStruct struct3 = new TaintedStruct();
