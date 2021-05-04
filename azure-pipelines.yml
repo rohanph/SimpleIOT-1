@@ -22,3 +22,10 @@ steps:
     applications: '1d4883a6-1e37-4a79-81a9-7b2b4230fbf5'
     scanname: 'NewymlAsoc'
     scantype: 'static'
+- task: HCL AppScan Enterprise@2
+  inputs:
+    ServiceEndPointAse: 'ASE_Creds_Win37_2021'
+    jobName: 'ASENew'
+    folderId: 12
+    templateId: 7
+    testPolicyId: 8
