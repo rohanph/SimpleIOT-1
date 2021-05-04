@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Rohan_Private_Agent
+pool: Rohan_Test_Agent
 
 steps:
 - script: echo Hello, world!
